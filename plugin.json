@@ -1,0 +1,16 @@
+{
+  "slug": "matrix-sequencer",
+  "name": "Matrix Sequencer",
+  "version": "2.0.0",
+  "license": "AGPL-3.0-only",
+  "brand": "Matrix Sequencer",
+  "author": "R3tr0",
+  "authorEmail": "offer.nik.kor@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
