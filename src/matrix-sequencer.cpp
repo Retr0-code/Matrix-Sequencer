@@ -1,7 +1,7 @@
 #include "matrix-sequencer.hpp"
 
 
-Matrix_sequencer::Matrix_sequencer()
+Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0)
 {
 	{
 		config(PARAMS_LEN, INPUTS_LEN, OUTPUTS_LEN, LIGHTS_LEN);
@@ -35,35 +35,41 @@ Matrix_sequencer::Matrix_sequencer()
 		configOutput(TOTAL_PITCH_OUT_OUTPUT, "Sequence output");
 	}
 
-	_run = false;
 	_reset = false;
-	_current_step = X4_Y4_LIGHT_LIGHT;
 }
+
+
+inline uint8_t Matrix_sequencer::translateCoords()
+{
+	return _current_step.x + (_current_step.y << 2);
+}
+
 
 void Matrix_sequencer::process(const ProcessArgs& args)
 {
-	if (inputs[RUN_IN_INPUT].getVoltage())
-		_run = !_run;
-
 	// Reset sequencer
 	if (inputs[RESET_IN_INPUT].getVoltage())
 	{
-		lights[_current_step].setBrightness(0);
-		_current_step = X4_Y4_LIGHT_LIGHT;
+		lights[translateCoords()].setBrightness(0);
+		_current_step = {0, 0, 0};
 	}
 
 	// Process trigger clock
 	if (clockTrigger.process(inputs[CLOCK_IN_INPUT].getVoltage()))
 	{
 		// Turn off current light
-		lights[_current_step].setBrightness(0);
+		lights[translateCoords()].setBrightness(0);
 
-		// Switch light
-		_current_step++ ;
-		_current_step %= LIGHTS_LEN;
+		//------------ Current Step = chosen callback algorithm ------------//
+		_current_step = static_cast<sequence_t>(SequnceAlgorithm_base(_current_step));
+		float param_voltage = params[translateCoords()].getValue();
+
+		outputs[_current_step.y].setVoltage(param_voltage);
+		outputs[_current_step.x + 3].setVoltage(param_voltage);
+		outputs[TOTAL_PITCH_OUT_OUTPUT].setVoltage(param_voltage);
 
 		// Turn on new light
-		lights[_current_step].setBrightness(1);
+		lights[translateCoords()].setBrightness(1);
 	}
 }
 

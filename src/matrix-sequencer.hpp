@@ -2,6 +2,7 @@
 #define MATRIX_SEQUNCER
 
 #include "plugin.hpp"
+#include "sequence_algorithm.hpp"
 
 struct Matrix_sequencer : Module {
 	enum ParamId {
@@ -68,12 +69,11 @@ struct Matrix_sequencer : Module {
 
     void process(const ProcessArgs& args) override;
 
-    void updateSequence();
+    inline uint8_t translateCoords();
 
 private:
-    bool _run;
     bool _reset;
-    uint8_t _current_step;
+    sequence_t _current_step;
     dsp::SchmittTrigger clockTrigger;
 };
 
