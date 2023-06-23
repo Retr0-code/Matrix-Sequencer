@@ -12,5 +12,12 @@
   "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
-  "modules": []
+  "modules": [
+    {
+      "slug": "matrix-sequencer",
+      "name": "matrix-sequencer",
+      "description": "",
+      "tags": []
+    }
+  ]
 }
