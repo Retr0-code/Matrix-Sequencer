@@ -69,9 +69,11 @@ struct Matrix_sequencer : Module {
 
     void process(const ProcessArgs& args) override;
 
+private:
     inline uint8_t translateCoords();
 
 private:
+	bool _run;
     bool _reset;
     sequence_t _current_step;
     dsp::SchmittTrigger clockTrigger;

@@ -1,6 +1,7 @@
 #ifndef SEQUENCE_ALGORITHM
 #define SEQUENCE_ALGORITHM
 
+#include <cstdint>
 #include <iostream>
 
 struct sequence_t
@@ -27,25 +28,10 @@ struct SequnceAlgorithm_base : public sequence_t
 
 
 private:
-    virtual void callback()
-    {
-        uint8_t* direction = reinterpret_cast<uint8_t*>((&this->x) + (round & 1));
-        uint8_t* shift = reinterpret_cast<uint8_t*>((&this->y) - (round & 1));
-
-        (*direction)++;
-
-        if ((*direction) > 3)
-        {
-            (*direction) = 0;
-            (*shift)++ ;
-        }
-            
-        if ((*shift) > 3)
-        {
-            (*shift) = 0;
-            this->round++ ;
-        }
-    };
+    /*  Default algorithm
+        Override this function to implement own algorithm
+    */
+    virtual void callback();
 };
 
 #endif

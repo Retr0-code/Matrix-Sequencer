@@ -1,7 +1,7 @@
 #include "matrix-sequencer.hpp"
 
 
-Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0)
+Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0), _run(true), _reset(false)
 {
 	{
 		config(PARAMS_LEN, INPUTS_LEN, OUTPUTS_LEN, LIGHTS_LEN);
@@ -34,19 +34,17 @@ Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0)
 		configOutput(X4_OUT_OUTPUT, "Out X:4");
 		configOutput(TOTAL_PITCH_OUT_OUTPUT, "Sequence output");
 	}
-
-	_reset = false;
-}
-
-
-inline uint8_t Matrix_sequencer::translateCoords()
-{
-	return _current_step.x + (_current_step.y << 2);
 }
 
 
 void Matrix_sequencer::process(const ProcessArgs& args)
 {
+	// Stop / Run control
+	if (!_run)
+		for (auto& out : outputs)
+			out.setVoltage(0);
+
+
 	// Reset sequencer
 	if (inputs[RESET_IN_INPUT].getVoltage())
 	{
@@ -63,7 +61,7 @@ void Matrix_sequencer::process(const ProcessArgs& args)
 		//------------ Current Step = chosen callback algorithm ------------//
 		_current_step = static_cast<sequence_t>(SequnceAlgorithm_base(_current_step));
 		float param_voltage = params[translateCoords()].getValue();
-
+		
 		outputs[_current_step.y].setVoltage(param_voltage);
 		outputs[_current_step.x + 3].setVoltage(param_voltage);
 		outputs[TOTAL_PITCH_OUT_OUTPUT].setVoltage(param_voltage);
@@ -71,6 +69,12 @@ void Matrix_sequencer::process(const ProcessArgs& args)
 		// Turn on new light
 		lights[translateCoords()].setBrightness(1);
 	}
+}
+
+
+inline uint8_t Matrix_sequencer::translateCoords()
+{
+	return _current_step.x + (_current_step.y << 2);
 }
 
 
@@ -131,7 +135,6 @@ Matrix_sequencerWidget::Matrix_sequencerWidget(Matrix_sequencer* module) {
 	addChild(createLightCentered<MediumLight<GreenLight>>(mm2px(Vec(91.44, 100.33)), module, Matrix_sequencer::X3_Y4_LIGHT_LIGHT));
 	addChild(createLightCentered<MediumLight<GreenLight>>(mm2px(Vec(119.38, 100.33)), module, Matrix_sequencer::X4_Y4_LIGHT_LIGHT));
 }
-
 
 
 Model* modelMatrix_sequencer = createModel<Matrix_sequencer, Matrix_sequencerWidget>("matrix-sequencer");
