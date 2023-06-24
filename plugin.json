@@ -1,15 +1,15 @@
 {
   "slug": "matrix-sequencer",
   "name": "Matrix Sequencer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "AGPL-3.0-only",
   "brand": "Matrix Sequencer",
   "author": "R3tr0",
   "authorEmail": "offer.nik.kor@gmail.com",
-  "authorUrl": "",
-  "pluginUrl": "",
+  "authorUrl": "https://github.com/Retr0-code/",
+  "pluginUrl": "https://github.com/Retr0-code/Matrix-Sequncer",
   "manualUrl": "",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/Retr0-code/Matrix-Sequncer",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -17,7 +17,12 @@
       "slug": "matrix-sequencer",
       "name": "matrix-sequencer",
       "description": "",
-      "tags": []
+      "tags": [
+        "Arpeggiator",
+        "Controller",
+        "Sequencer",
+        "Multiple"
+      ]
     }
   ]
 }
