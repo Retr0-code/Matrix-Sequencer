@@ -79,6 +79,7 @@ private:
 private:
 	bool _run;
     bool _reset;
+	uint16_t _algorithm_type;
     sequence_t _current_step;
     dsp::SchmittTrigger clockTrigger;
 	std::vector<SequenceAlgorithm_base*> _sequence_algorithms;

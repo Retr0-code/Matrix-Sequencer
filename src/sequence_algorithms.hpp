@@ -18,14 +18,15 @@ struct sequence_t
 
 struct SequenceAlgorithm_base
 {
-    // SequenceAlgorithm_base() = default;
-
-    // SequenceAlgorithm_base(const SequenceAlgorithm_base&) = default;
-
-    // SequenceAlgorithm_base(SequenceAlgorithm_base&&) = default;
-
     // Override this function to implement own algorithm
     virtual void callback(sequence_t &current_step);
+};
+
+struct StraightSequence : public SequenceAlgorithm_base
+{
+    StraightSequence() = default;
+
+    void callback(sequence_t &current_step) override;
 };
 
 struct LeftRight_UpDown : public SequenceAlgorithm_base
@@ -40,6 +41,9 @@ struct SpiralSequence : public SequenceAlgorithm_base
     SpiralSequence() = default;
 
     void callback(sequence_t &current_step) override;
+
+private:
+    uint8_t furthest = 3, nearest = 0;
 };
 
 #endif

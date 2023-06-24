@@ -4,6 +4,7 @@
 Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0), _run(true), _reset(false)
 {
 	_sequence_algorithms = {
+		new StraightSequence(),
 		new LeftRight_UpDown(),
 		new SpiralSequence()
 	};
@@ -43,6 +44,7 @@ Matrix_sequencer::Matrix_sequencer() : _current_step(0, 0, 0), _run(true), _rese
 	}
 
 	paramQuantities[ALGORITHM_KNOB_PARAM]->snapEnabled = true;
+	_algorithm_type = params[ALGORITHM_KNOB_PARAM].getValue();
 }
 
 
@@ -68,6 +70,18 @@ void Matrix_sequencer::process(const ProcessArgs& args)
 		_current_step = {0, 0, 0};
 	}
 
+	_algorithm_type = params[ALGORITHM_KNOB_PARAM].getValue();
+	if (inputs[ALGORITHM_FM_INPUT].isConnected())
+	{
+		_algorithm_type = std::ceil(inputs[ALGORITHM_FM_INPUT].getVoltage());
+
+		if (_algorithm_type >= _sequence_algorithms.size())
+			_algorithm_type = _sequence_algorithms.size() - 1;
+
+		if (_algorithm_type < 0)
+			_algorithm_type = 0;
+	}
+
 	// Process trigger clock
 	if (clockTrigger.process(inputs[CLOCK_IN_INPUT].getVoltage()))
 	{
@@ -75,8 +89,7 @@ void Matrix_sequencer::process(const ProcessArgs& args)
 		lights[translateCoords()].setBrightness(0);
 
 		//------------ Current Step = chosen callback algorithm ------------//
-		// _current_step = static_cast<sequence_t>(SequnceAlgorithm_base(_current_step));
-		_sequence_algorithms.at(params[ALGORITHM_KNOB_PARAM].getValue())->callback(_current_step);
+		_sequence_algorithms.at(_algorithm_type)->callback(_current_step);
 		float param_voltage = params[translateCoords()].getValue();
 		
 		outputs[_current_step.y].setVoltage(param_voltage);
