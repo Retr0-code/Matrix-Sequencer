@@ -2,7 +2,7 @@
 #define MATRIX_SEQUNCER
 
 #include "plugin.hpp"
-#include "sequence_algorithm.hpp"
+#include "sequence_algorithms.hpp"
 
 struct Matrix_sequencer : Module {
 	enum ParamId {
@@ -22,6 +22,7 @@ struct Matrix_sequencer : Module {
 		X2_Y4_KNOB_PARAM,
 		X3_Y4_KNOB_PARAM,
 		X4_Y4_KNOB_PARAM,
+		ALGORITHM_KNOB_PARAM,
 		PARAMS_LEN
 	};
 
@@ -29,6 +30,7 @@ struct Matrix_sequencer : Module {
 		CLOCK_IN_INPUT,
 		RUN_IN_INPUT,
 		RESET_IN_INPUT,
+		ALGORITHM_FM_INPUT,
 		INPUTS_LEN
 	};
 
@@ -67,6 +69,8 @@ struct Matrix_sequencer : Module {
 
 	Matrix_sequencer();
 
+	~Matrix_sequencer();
+
     void process(const ProcessArgs& args) override;
 
 private:
@@ -77,6 +81,7 @@ private:
     bool _reset;
     sequence_t _current_step;
     dsp::SchmittTrigger clockTrigger;
+	std::vector<SequenceAlgorithm_base*> _sequence_algorithms;
 };
 
 struct Matrix_sequencerWidget : ModuleWidget

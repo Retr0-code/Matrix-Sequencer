@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="152.39999mm"
+   width="162.56mm"
    height="128.5mm"
-   viewBox="0 0 152.39999 128.5"
+   viewBox="0 0 162.55999 128.5"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.78127804"
-     inkscape:cx="-63.357726"
-     inkscape:cy="183.03343"
+     inkscape:zoom="1.5625561"
+     inkscape:cx="228.4718"
+     inkscape:cy="330.86812"
      inkscape:window-width="1827"
      inkscape:window-height="1057"
      inkscape:window-x="85"
@@ -54,9 +54,9 @@
      id="layer1"
      style="display:inline">
     <rect
-       style="display:inline;fill:#b1b1b1;fill-opacity:1;stroke:none;stroke-width:0.20702;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="display:inline;fill:#b1b1b1;fill-opacity:1;stroke:none;stroke-width:0.213809;stroke-linejoin:round;paint-order:markers stroke fill"
        id="background"
-       width="152.39999"
+       width="162.56"
        height="129.53999"
        x="-1.7763568e-15"
        y="0"
@@ -65,7 +65,7 @@
        sodipodi:insensitive="true" />
     <g
        aria-label="R3tr0's Matr1x-S3qu3nc3r"
-       transform="matrix(1.0321343,0,0,1.0611601,-5.8237583,1.5114562)"
+       transform="matrix(1.03211,0,0,1.0611612,24.657935,1.4496855)"
        id="panel-label"
        style="font-size:4.93889px;white-space:pre;inline-size:54.6375;display:inline;fill:#4e4e4e;stroke:#4e4e4e;stroke-width:0.185902"
        inkscape:label="panel-label">
@@ -163,21 +163,21 @@
          id="path3664" />
     </g>
     <rect
-       style="fill:#4e4e4e;fill-opacity:1;stroke:#4e4e4e;stroke-width:4.16333;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="display:inline;fill:#4e4e4e;fill-opacity:1;stroke:#4e4e4e;stroke-width:4.16333;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="inputs-wrapper"
        width="13.557225"
        height="49.102489"
-       x="7.2211108"
-       y="14.855847"
+       x="14.841108"
+       y="14.855853"
        inkscape:label="inputs-wrapper" />
     <g
        aria-label="CLK"
-       transform="scale(1.0674085,0.93684845)"
+       transform="matrix(1.0674085,0,0,0.93684845,7.6199981,5.7758553e-6)"
        id="clock-label"
        style="font-size:3.77004px;fill:#b1b1b1;stroke-width:0.31417"
        inkscape:label="clock-label">
       <path
-         d="m 9.1673991,17.986311 0.3571229,0.0902 q -0.1122912,0.439961 -0.4049848,0.671907 -0.2908527,0.230105 -0.712405,0.230105 -0.436279,0 -0.7105642,-0.176721 -0.2724443,-0.178561 -0.4160298,-0.515435 -0.1417447,-0.336874 -0.1417447,-0.72345 0,-0.421552 0.1601531,-0.734495 0.1619939,-0.314784 0.4583691,-0.476778 0.2982161,-0.163834 0.655339,-0.163834 0.4049848,0 0.6811108,0.206174 0.2761259,0.206174 0.3847355,0.579864 l -0.3516004,0.08284 Q 9.0330178,16.762153 8.8544563,16.627771 8.6758948,16.49339 8.4052914,16.49339 q -0.311102,0 -0.5209577,0.149108 -0.2080149,0.149108 -0.2926936,0.401303 -0.084679,0.250354 -0.084679,0.517276 0,0.344237 0.099405,0.601955 0.1012462,0.255876 0.3129427,0.382894 0.2116966,0.127018 0.4583692,0.127018 0.3000569,0 0.5080718,-0.173039 0.2080149,-0.173039 0.2816485,-0.513594 z"
+         d="m 9.1673991,17.986311 0.3571229,0.0902 q -0.1122912,0.439961 -0.4049848,0.671907 -0.2908527,0.230105 -0.712405,0.230105 -0.436279,0 -0.7105642,-0.176721 -0.2724443,-0.178561 -0.4160298,-0.515435 -0.1417447,-0.336874 -0.1417447,-0.72345 0,-0.421552 0.1601531,-0.734495 0.1619939,-0.314784 0.4583691,-0.476778 0.2982161,-0.163834 0.655339,-0.163834 0.4049848,0 0.6811108,0.206174 0.2761259,0.206174 0.3847355,0.579864 l -0.3516004,0.08284 Q 9.0330178,16.762153 8.8544563,16.627771 8.6758948,16.49339 8.4052914,16.49339 q -0.311102,0 -0.5209577,0.149108 -0.2080149,0.149108 -0.2926936,0.401303 -0.084679,0.250354 -0.084679,0.517276 0,0.344237 0.099405,0.601955 0.1012462,0.255876 0.3129427,0.382894 0.2116966,0.127018 0.4583692,0.127018 0.3000569,0 0.5080718,-0.173039 0.2080149,-0.173039 0.2816493,-0.513594 z"
          style="font-family:Arial;-inkscape-font-specification:Arial"
          id="path3613" />
       <path
@@ -191,7 +191,7 @@
     </g>
     <g
        aria-label="RESET"
-       transform="scale(1.0674085,0.93684845)"
+       transform="matrix(1.0674085,0,0,0.93684845,7.6199981,5.7758553e-6)"
        id="reset-label"
        style="font-size:3.77004px;display:inline;fill:#b1b1b1;stroke-width:0.31417"
        inkscape:label="reset-label">
@@ -216,27 +216,14 @@
          style="font-family:Arial;-inkscape-font-specification:Arial"
          id="path3603" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:3.77004px;display:inline;fill:#b1b1b1;fill-opacity:1;stroke-width:0.31417"
-       x="28.367384"
-       y="40.622242"
-       id="click-label-8"
-       transform="scale(1.0674085,0.93684845)"
-       inkscape:label="#click-label"><tspan
-         sodipodi:role="line"
-         id="tspan955-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#b1b1b1;fill-opacity:1;stroke-width:0.31417"
-         x="28.367384"
-         y="40.622242" /></text>
     <g
        aria-label="RUN"
-       transform="scale(1.0291781,0.97164912)"
+       transform="matrix(1.0291781,0,0,0.97164912,7.6199981,5.7758553e-6)"
        id="run-label"
        style="font-size:3.63501px;display:inline;fill:#b1b1b1;stroke-width:0.302918"
        inkscape:label="run-label">
       <path
-         d="m 7.5166136,36.585476 v -2.602014 h 1.1536897 q 0.3478818,0 0.5289224,0.071 0.1810405,0.06922 0.2893099,0.246712 0.1082693,0.177491 0.1082693,0.392255 0,0.276885 -0.1792656,0.4668 -0.1792657,0.189915 -0.5537711,0.241388 0.1366679,0.06567 0.2076642,0.129568 0.1508671,0.138443 0.28576,0.346107 l 0.4526014,0.708188 H 9.3767164 l -0.344332,-0.541347 q -0.1508671,-0.234288 -0.248487,-0.358531 -0.09762,-0.124244 -0.1757158,-0.173941 -0.076321,-0.0497 -0.1561919,-0.06922 -0.058572,-0.01243 -0.1916899,-0.01243 H 7.8609456 v 1.155465 z m 0.344332,-1.453649 h 0.7401363 q 0.2360627,0 0.3691807,-0.04792 0.1331181,-0.0497 0.2023395,-0.156191 0.069221,-0.10827 0.069221,-0.234288 0,-0.184591 -0.1348929,-0.303509 -0.133118,-0.118919 -0.4224279,-0.118919 h -0.823557 z"
+         d="m 7.5166136,36.585476 v -2.602014 h 1.1536897 q 0.3478818,0 0.5289224,0.071 0.1810405,0.06922 0.2893099,0.246712 0.1082693,0.177491 0.1082693,0.392255 0,0.276885 -0.1792656,0.4668 -0.1792657,0.189915 -0.5537711,0.241388 0.1366679,0.06567 0.2076642,0.129568 0.1508671,0.138443 0.28576,0.346107 L 9.8097938,36.58548 H 9.3767164 l -0.344332,-0.541347 q -0.1508671,-0.234288 -0.248487,-0.358531 -0.09762,-0.124244 -0.1757158,-0.173941 -0.076321,-0.0497 -0.1561919,-0.06922 -0.058572,-0.01243 -0.1916899,-0.01243 H 7.8609456 v 1.155465 z m 0.344332,-1.453649 h 0.7401363 q 0.2360627,0 0.3691807,-0.04792 0.1331181,-0.0497 0.2023395,-0.156191 0.069221,-0.10827 0.069221,-0.234288 0,-0.184591 -0.1348929,-0.303509 Q 8.9738122,34.271 8.6845023,34.271 h -0.823557 z"
          style="font-family:Arial;-inkscape-font-specification:Arial"
          id="path3606" />
       <path
@@ -253,15 +240,15 @@
        id="knobs-wrapper"
        width="99.090294"
        height="95.905357"
-       x="27.921818"
-       y="12.68788"
+       x="35.541813"
+       y="12.687885"
        inkscape:label="knobs-wrapper" />
     <rect
        style="fill:#d7d7d7;fill-opacity:1;stroke:#4e4e4e;stroke-width:1.71042;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="x-out-wrapper"
        width="98.084152"
        height="13.529586"
-       x="28.056156"
+       x="35.676151"
        y="112.6152"
        inkscape:label="x-out-wrapper" />
     <rect
@@ -269,12 +256,12 @@
        id="y-out-wrapper"
        width="14.431805"
        height="95.730827"
-       x="129.60199"
-       y="12.762012"
+       x="137.22198"
+       y="12.762017"
        inkscape:label="y-out-wrapper" />
     <g
        aria-label="Y Out"
-       transform="matrix(1.2971253,0,0,1.1862872,-25.23556,-2.8798968)"
+       transform="matrix(1.2971253,0,0,1.1862872,-17.615562,-2.8798911)"
        id="y-out-label"
        style="font-size:3.70996px;font-family:Arial;-inkscape-font-specification:Arial;fill:#4e4e4e;stroke-width:1.50735;stroke-linejoin:round;paint-order:markers stroke fill"
        inkscape:label="y-out-label">
@@ -293,7 +280,7 @@
     </g>
     <g
        aria-label="X Out"
-       transform="matrix(1.078997,0,0,1.037363,-0.85965885,-8.5573044)"
+       transform="matrix(1.078997,0,0,1.037363,6.7603393,-8.5572984)"
        id="x-out-label"
        style="font-size:3.69998px;font-family:Arial;-inkscape-font-specification:Arial;display:inline;fill:#4e4e4e;stroke-width:1.50329;stroke-linejoin:round;paint-order:markers stroke fill"
        inkscape:label="x-out-label">
@@ -315,10 +302,51 @@
        id="total-pitch-out-wrapper"
        width="14.258221"
        height="14.489978"
-       x="129.95589"
+       x="137.57588"
        y="111.94412"
        ry="3.6269606e-07"
        inkscape:label="total-pitch-out-wrapper" />
+    <g
+       aria-label="Algorithm"
+       transform="scale(1.0160103,0.98424202)"
+       id="algorithm-label"
+       style="font-size:3.60517px;font-family:Arial;-inkscape-font-specification:Arial;display:inline;fill:#4e4e4e;stroke-width:0.227098;stroke-linejoin:round;paint-order:markers stroke fill"
+       inkscape:label="algorithm-label">
+      <path
+         d="m 12.49989,110.20993 0.991069,-2.58065 h 0.367911 l 1.056202,2.58065 h -0.389034 l -0.301018,-0.78159 h -1.079087 l -0.283414,0.78159 z m 0.744622,-1.05972 H 14.1194 l -0.269332,-0.7147 q -0.123223,-0.32566 -0.183075,-0.53514 -0.04929,0.24821 -0.139066,0.49289 z"
+         id="path2405" />
+      <path
+         d="m 15.140395,110.20993 v -2.58065 h 0.316861 v 2.58065 z"
+         id="path2407" />
+      <path
+         d="m 15.890299,110.36484 0.308059,0.0458 q 0.01936,0.14259 0.10738,0.20772 0.117943,0.088 0.322142,0.088 0.220042,0 0.339745,-0.088 0.119703,-0.088 0.161951,-0.24645 0.02464,-0.0968 0.02288,-0.40664 -0.207719,0.24469 -0.517539,0.24469 -0.385514,0 -0.596754,-0.27813 -0.21124,-0.27814 -0.21124,-0.66717 0,-0.26757 0.09682,-0.49289 0.09682,-0.22709 0.279894,-0.35031 0.184835,-0.12323 0.433043,-0.12323 0.330943,0 0.545704,0.26758 v -0.22533 h 0.292216 v 1.61599 q 0,0.43657 -0.08978,0.61788 -0.08802,0.18308 -0.281654,0.2887 -0.191877,0.10562 -0.473531,0.10562 -0.334464,0 -0.540423,-0.15139 -0.20596,-0.14963 -0.198918,-0.45241 z m 0.26229,-1.12309 q 0,0.36791 0.146108,0.5369 0.146108,0.16899 0.36615,0.16899 0.218282,0 0.36615,-0.16723 0.147868,-0.16899 0.147868,-0.5281 0,-0.34327 -0.153149,-0.51754 -0.151389,-0.17428 -0.36615,-0.17428 -0.21124,0 -0.359109,0.17252 -0.147868,0.17075 -0.147868,0.50874 z"
+         id="path2409" />
+      <path
+         d="m 17.835471,109.27519 q 0,-0.5193 0.288695,-0.76927 0.241166,-0.20772 0.587953,-0.20772 0.385513,0 0.6302,0.25349 0.244687,0.25173 0.244687,0.6971 0,0.36087 -0.109141,0.56859 -0.10738,0.20595 -0.3151,0.32038 -0.20596,0.11442 -0.450646,0.11442 -0.392556,0 -0.635482,-0.25173 -0.241166,-0.25173 -0.241166,-0.72526 z m 0.325662,0 q 0,0.35911 0.15667,0.53866 0.15667,0.1778 0.394316,0.1778 0.235885,0 0.392555,-0.17956 0.15667,-0.17955 0.15667,-0.54746 0,-0.34679 -0.158431,-0.52458 -0.15667,-0.17956 -0.390794,-0.17956 -0.237646,0 -0.394316,0.1778 -0.15667,0.17779 -0.15667,0.5369 z"
+         id="path2411" />
+      <path
+         d="m 19.954917,110.20993 v -1.86948 h 0.285174 v 0.28342 q 0.109141,-0.19892 0.200679,-0.26229 0.0933,-0.0634 0.204199,-0.0634 0.16019,0 0.325662,0.1021 l -0.109141,0.29398 q -0.116182,-0.0687 -0.232364,-0.0687 -0.10386,0 -0.186596,0.0634 -0.08274,0.0616 -0.117943,0.17251 -0.05281,0.16899 -0.05281,0.36967 v 0.97875 z"
+         id="path2413" />
+      <path
+         d="m 21.160747,107.99367 v -0.36439 h 0.31686 v 0.36439 z m 0,2.21626 v -1.86948 h 0.31686 v 1.86948 z"
+         id="path2415" />
+      <path
+         d="m 22.651753,109.92652 0.04577,0.27989 q -0.133785,0.0282 -0.239405,0.0282 -0.172513,0 -0.267572,-0.0546 -0.09506,-0.0546 -0.133785,-0.14258 -0.03873,-0.0898 -0.03873,-0.37495 v -1.07557 h -0.232364 v -0.24645 h 0.232364 v -0.46297 l 0.315101,-0.19011 v 0.65308 h 0.318621 v 0.24645 h -0.318621 v 1.09317 q 0,0.13554 0.01584,0.17427 0.0176,0.0387 0.05457,0.0616 0.03873,0.0229 0.109141,0.0229 0.05281,0 0.139067,-0.0123 z"
+         id="path2417" />
+      <path
+         d="m 22.961572,110.20993 v -2.58065 h 0.316861 v 0.92593 q 0.221802,-0.25701 0.559787,-0.25701 0.20772,0 0.360869,0.0827 0.153149,0.081 0.218282,0.22532 0.06689,0.14435 0.06689,0.41896 v 1.18471 h -0.31686 v -1.18471 q 0,-0.23764 -0.10386,-0.34502 -0.1021,-0.10914 -0.290456,-0.10914 -0.140827,0 -0.265811,0.0739 -0.123223,0.0722 -0.176033,0.19716 -0.05281,0.12498 -0.05281,0.34502 v 1.02276 z"
+         id="path2419" />
+      <path
+         d="m 24.966596,110.20993 v -1.86948 h 0.283414 v 0.26229 q 0.08802,-0.1373 0.234125,-0.22004 0.146108,-0.0845 0.332704,-0.0845 0.207719,0 0.339745,0.0863 0.133785,0.0863 0.188356,0.24117 0.221802,-0.32743 0.57739,-0.32743 0.278134,0 0.427762,0.15491 0.149629,0.15315 0.149629,0.47353 v 1.28329 h -0.3151 v -1.17766 q 0,-0.19012 -0.03169,-0.27286 -0.02992,-0.0845 -0.110901,-0.13554 -0.08097,-0.0511 -0.190116,-0.0511 -0.197158,0 -0.327423,0.13202 -0.130265,0.13027 -0.130265,0.41896 v 1.08613 h -0.31686 v -1.21463 q 0,-0.21124 -0.07746,-0.31686 -0.07746,-0.10562 -0.253489,-0.10562 -0.133785,0 -0.248207,0.0704 -0.112662,0.0704 -0.163712,0.20596 -0.05105,0.13555 -0.05105,0.39079 v 0.96995 z"
+         id="path2421" />
+    </g>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.319999,76.199996 v 10.16"
+       id="alg-pointer-line"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:label="alg-pointer-line" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -328,71 +356,71 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y1-knob"
-       cx="35.560001"
-       cy="20.32"
+       cx="43.179996"
+       cy="20.320007"
        inkscape:label="x1-y1-knob"
        rx="2.5399995"
        ry="2.5399997" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y1-knob"
-       cx="63.5"
-       cy="20.32"
+       cx="71.119995"
+       cy="20.320007"
        inkscape:label="x2-y1-knob"
        rx="2.5400033"
        ry="2.5399997" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y1-knob"
-       cx="91.440002"
-       cy="20.32"
+       cx="99.059998"
+       cy="20.320007"
        inkscape:label="x3-y1-knob"
        rx="2.5400021"
        ry="2.5399997" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y1-knob"
-       cx="119.38"
-       cy="20.32"
+       cx="126.99999"
+       cy="20.320007"
        inkscape:label="x4-y1-knob"
        rx="2.5399985"
        ry="2.5399997" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y2-knob"
-       cx="35.559998"
-       cy="43.179996"
+       cx="43.179993"
+       cy="43.18"
        inkscape:label="x1-y2-knob"
        rx="2.5399995"
        ry="2.5400002" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y2-knob"
-       cx="63.499996"
-       cy="43.179996"
+       cx="71.119995"
+       cy="43.18"
        inkscape:label="x2-y2-knob"
        rx="2.5400016"
        ry="2.5400002" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y2-knob"
-       cx="91.440002"
-       cy="43.179996"
+       cx="99.059998"
+       cy="43.18"
        inkscape:label="x3-y2-knob"
        rx="2.539999"
        ry="2.5400002" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y2-knob"
-       cx="119.38"
-       cy="43.179996"
+       cx="126.99999"
+       cy="43.18"
        inkscape:label="x4-y2-knob"
        rx="2.5400043"
        ry="2.5399997" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y3-knob"
-       cx="35.559994"
+       cx="43.179989"
        cy="66.039993"
        inkscape:label="x1-y3-knob"
        rx="2.5399995"
@@ -400,7 +428,7 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y3-knob"
-       cx="63.499992"
+       cx="71.119987"
        cy="66.039993"
        inkscape:label="x2-y3-knob"
        rx="2.5399995"
@@ -408,7 +436,7 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y3-knob"
-       cx="91.440002"
+       cx="99.059998"
        cy="66.040001"
        inkscape:label="x3-y3-knob"
        rx="2.539999"
@@ -416,7 +444,7 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y3-knob"
-       cx="119.38"
+       cx="126.99999"
        cy="66.039993"
        inkscape:label="x4-y3-knob"
        rx="2.539988"
@@ -424,14 +452,14 @@
     <circle
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y4-knob"
-       cx="35.559998"
+       cx="43.179993"
        cy="88.899994"
        inkscape:label="x1-y4-knob"
        r="2.5400004" />
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y4-knob"
-       cx="63.499996"
+       cx="71.119995"
        cy="88.899994"
        inkscape:label="x2-y4-knob"
        rx="2.5399988"
@@ -439,7 +467,7 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y4-knob"
-       cx="91.44001"
+       cx="99.060005"
        cy="88.899994"
        inkscape:label="x3-y4-knob"
        rx="2.539999"
@@ -447,7 +475,7 @@
     <ellipse
        style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y4-knob"
-       cx="119.38"
+       cx="126.99999"
        cy="88.899994"
        inkscape:label="x4-y4-knob"
        rx="2.539994"
@@ -455,71 +483,71 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y1-light"
-       cx="35.559998"
-       cy="31.749998"
+       cx="43.179993"
+       cy="31.750006"
        inkscape:label="x1-y1-light"
        rx="1.269999"
        ry="1.2699997" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.0999995;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y1-light"
-       cx="63.499996"
-       cy="31.749998"
+       cx="71.119995"
+       cy="31.750006"
        inkscape:label="x2-y1-light"
        rx="1.2700028"
        ry="1.2699999" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y1-light"
-       cx="91.440002"
-       cy="31.749998"
+       cx="99.059998"
+       cy="31.750006"
        inkscape:label="x3-y1-light"
        rx="1.2700005"
        ry="1.2699997" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y1-light"
-       cx="119.38"
-       cy="31.749998"
+       cx="126.99999"
+       cy="31.750006"
        inkscape:label="x4-y1-light"
        rx="1.2699993"
        ry="1.2699997" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y2-light"
-       cx="35.559998"
-       cy="54.609997"
+       cx="43.179993"
+       cy="54.610001"
        inkscape:label="x1-y2-light"
        rx="1.2700002"
        ry="1.2699994" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y2-light"
-       cx="63.499996"
-       cy="54.609997"
+       cx="71.119995"
+       cy="54.610001"
        inkscape:label="x2-y2-light"
        rx="1.2700036"
        ry="1.2700003" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y2-light"
-       cx="91.440002"
-       cy="54.609997"
+       cx="99.059998"
+       cy="54.610001"
        inkscape:label="x3-y2-light"
        rx="1.2700002"
        ry="1.2700003" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y2-light"
-       cx="119.38"
-       cy="54.609993"
+       cx="126.99999"
+       cy="54.609997"
        inkscape:label="x4-y2-light"
        rx="1.2699996"
        ry="1.2700008" />
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y3-light"
-       cx="35.55999"
+       cx="43.179985"
        cy="77.469994"
        inkscape:label="x1-y3-light"
        rx="1.2699995"
@@ -527,7 +555,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y3-light"
-       cx="63.499989"
+       cx="71.119987"
        cy="77.469994"
        inkscape:label="x2-y3-light"
        rx="1.2700018"
@@ -535,7 +563,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y3-light"
-       cx="91.440002"
+       cx="99.059998"
        cy="77.469994"
        inkscape:label="x3-y3-light"
        rx="1.2700002"
@@ -543,7 +571,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y3-light"
-       cx="119.38"
+       cx="126.99999"
        cy="77.469994"
        inkscape:label="x4-y3-light"
        rx="1.2699996"
@@ -551,7 +579,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-y4-light"
-       cx="35.559986"
+       cx="43.179981"
        cy="100.32999"
        inkscape:label="x1-y4-light"
        rx="1.2700005"
@@ -559,7 +587,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-y4-light"
-       cx="63.499985"
+       cx="71.11998"
        cy="100.32999"
        inkscape:label="x2-y4-light"
        rx="1.2699989"
@@ -567,7 +595,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.0999999;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-y4-light"
-       cx="91.440002"
+       cx="99.059998"
        cy="100.32999"
        inkscape:label="x3-y4-light"
        rx="1.2699983"
@@ -575,7 +603,7 @@
     <ellipse
        style="display:inline;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-y4-light"
-       cx="119.38"
+       cx="126.99999"
        cy="100.32999"
        inkscape:label="x4-y4-light"
        rx="1.2699996"
@@ -583,7 +611,7 @@
     <ellipse
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linejoin:round;paint-order:markers stroke fill"
        id="total-pitch-out"
-       cx="137.15999"
+       cx="144.77998"
        cy="119.38"
        inkscape:label="total-pitch-out"
        rx="2.5400045"
@@ -591,78 +619,92 @@
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x1-out"
-       cx="35.559994"
+       cx="43.179989"
        cy="119.38"
        r="2.54"
        inkscape:label="x1-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x2-out"
-       cx="63.499996"
+       cx="71.119995"
        cy="119.38"
        r="2.54"
        inkscape:label="x2-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x3-out"
-       cx="91.440002"
+       cx="99.059998"
        cy="119.38"
        r="2.54"
        inkscape:label="x3-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="x4-out"
-       cx="119.38"
+       cx="126.99999"
        cy="119.38"
        r="2.54"
        inkscape:label="x4-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="y1-out"
-       cx="137.15999"
-       cy="20.32"
+       cx="144.77998"
+       cy="20.320007"
        r="2.54"
        inkscape:label="y1-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="y2-out"
-       cx="137.15999"
-       cy="43.179996"
+       cx="144.77998"
+       cy="43.18"
        r="2.54"
        inkscape:label="y2-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="y3-out"
-       cx="137.15999"
+       cx="144.77998"
        cy="66.040001"
        r="2.54"
        inkscape:label="y3-out" />
     <circle
        style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="y4-out"
-       cx="137.15999"
+       cx="144.77998"
        cy="88.899994"
        r="2.54"
        inkscape:label="y4-out" />
     <circle
        style="display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="clock-in"
-       cx="12.7"
-       cy="25.4"
+       cx="20.32"
+       cy="25.400007"
        r="2.54" />
     <circle
        style="display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="run-in"
-       cx="12.7"
-       cy="43.18"
+       cx="20.32"
+       cy="43.180004"
        r="2.54"
        inkscape:label="run-in" />
     <circle
        style="display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
        id="reset-in"
-       cx="12.7"
-       cy="60.959999"
+       cx="20.32"
+       cy="60.960003"
        r="2.54"
        inkscape:label="reset-in" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="algorithm-knob"
+       cx="20.32"
+       cy="88.899994"
+       r="2.5399997"
+       inkscape:label="algorithm-knob" />
+    <circle
+       style="fill:#00ff00;fill-opacity:1;stroke-width:0.2;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="algorithm-fm"
+       cx="20.32"
+       cy="73.659996"
+       r="2.5399997"
+       inkscape:label="algorithm-fm" />
   </g>
 </svg>
