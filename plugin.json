@@ -1,7 +1,7 @@
 {
   "slug": "matrix-sequencer",
   "name": "Matrix Sequencer",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "license": "AGPL-3.0-only",
   "brand": "Matrix Sequencer",
   "author": "R3tr0",
@@ -16,7 +16,7 @@
     {
       "slug": "matrix-sequencer",
       "name": "matrix-sequencer",
-      "description": "",
+      "description": "Simple matrix sequencer for VCV Rack 2 with three different playback algorithms.",
       "tags": [
         "Arpeggiator",
         "Controller",
