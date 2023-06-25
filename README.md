@@ -1,4 +1,4 @@
-# Matrix Sequncer
+# Matrix Sequencer
 
 Simple matrix sequencer for VCV Rack 2 with three different playback algorithms.
 
